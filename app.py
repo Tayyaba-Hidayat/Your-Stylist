@@ -305,7 +305,7 @@ Be specific and confident. Tailor everything to THIS person exactly.
             mime_type = uploaded.type
 
             # Call Gemini REST API directly — no SDK needed
-            url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={api_key}"
 
             payload = {
                 "contents": [
@@ -366,3 +366,4 @@ st.markdown("""
     AURA · Personal Style Intelligence · Powered by Google Gemini Vision AI
 </div>
 """, unsafe_allow_html=True)
+
